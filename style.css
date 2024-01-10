@@ -21,3 +21,21 @@ header nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+#hero {
+    background-color: #ddd;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#latest-research, #trade-ideas {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
