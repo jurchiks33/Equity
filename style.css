@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #fff;
 }
 
 .container {
@@ -35,6 +36,7 @@ header nav ul li {
     display: inline;
     margin-left: 20px;
 }
+
 header nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -49,7 +51,9 @@ header nav ul li a {
 
 #services {
     background: #f4f4f4;
-    padding: 20pc 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 #services article {
@@ -65,7 +69,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-    header hi, header nav {
+    header h1, header nav {
         float: none;
         text-align: center;
         margin: 10px 0;
