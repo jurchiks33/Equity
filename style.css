@@ -49,9 +49,12 @@ header nav ul li a {
 }
 
 #hero {
-    background-color: #ddd;
-    padding: 50px 0;
+    background-image: url('/pictures/Hero\ section1.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
     text-align: center;
+    padding: 100px 0;
 }
 
 #services {
