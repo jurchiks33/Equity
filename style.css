@@ -74,18 +74,21 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
-@media (max-width: 600px) {
-    header h1, header nav {
-        float: none;
-        text-align: center;
-        margin: 10px 0;
-    }
-
+@media (max-width: 768px) {
     header nav ul li {
         display: block;
-        margin-top: 5px;
+        padding: 5px 0;
+    }
+
+    #services {
+        flex-direction: column;
+    }
+
+    #services article {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
