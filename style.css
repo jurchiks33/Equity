@@ -58,15 +58,16 @@ header nav ul li a {
 }
 
 #services {
-    background: #f4f4f4;
-    padding: 20px 0;
     display: flex;
     justify-content: space-around;
+    padding: 50px 0;
+    background: #f4f4f4;
 }
 
 #services article {
+    width: 30%;
+    padding: 20%;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 footer {
