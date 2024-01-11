@@ -51,7 +51,7 @@ header nav ul li a {
 }
 
 #hero {
-    background-image: url('/pictures/Hero\ section1.png');
+    background-image: url('/pictures/Hero section1.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -78,9 +78,11 @@ header nav ul li a {
 }
 
 #services article {
-    width: 30%;
-    padding: 20%;
-    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.333% - 40px);
 }
 
 footer {
